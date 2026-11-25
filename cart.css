@@ -1,0 +1,115 @@
+body {
+  padding: 40px;
+  background-color: rgb(246, 140, 140);
+  color: red;
+}
+
+.cart {
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 5px black;
+  padding: 10px;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25vw;
+}
+.total h2 {
+  color: green;
+}
+.cart button {
+  background-color: black;
+  border-radius: 8px;
+  padding: 10px;
+  color: red;
+}
+.cart a {
+  text-decoration: none;
+}
+
+.selected_product {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.selected_product img {
+  width: 10vw;
+  height: 20vh;
+  border-radius: 8px;
+}
+
+.product_cart {
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+.price {
+  color: green;
+  font-weight: bolder;
+}
+.quantity {
+  display: flex;
+  justify-content: space-evenly;
+  height: 6vh;
+  width: 15vw;
+}
+.quantity p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: red;
+  padding: 12px;
+}
+
+form {
+  background-color: white;
+  color: black;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  padding: 10px;
+  width: 40vw;
+  height: auto;
+}
+
+form input {
+  width: 40vw;
+  padding-top: 8px;
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.confirm_btn {
+  background-color: lightgreen;
+  box-shadow: 2px 2px 2px 2px green;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  width: 15vw;
+}
+
+.success_message {
+  background-color: lightgreen;
+  position: absolute;
+  display: none;
+  top: 35%;
+  color: green;
+  left: 35%;
+  padding: 20px;
+  border-radius: 8px;
+}

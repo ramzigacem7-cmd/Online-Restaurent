@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: lightgrey;
+}
+h1 {
+  text-align: center;
+}
+section {
+  display: flex;
+  align-items: center;
+}
+
+table {
+  width: 60vw;
+  height: auto;
+}
+tr td {
+  text-align: center;
+}
+div {
+  padding: 15px;
+}
+a {
+  border: 2px solid lightgrey;
+  padding: 10px;
+  text-decoration: none;
+  color: blue;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}

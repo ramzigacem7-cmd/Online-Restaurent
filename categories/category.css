@@ -1,0 +1,49 @@
+* {
+  color: red;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  padding: 5%;
+  margin: 0%;
+}
+section {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 5%;
+}
+
+article {
+  box-shadow: 2px 2px 5px black;
+  border-radius: 8px;
+}
+article button {
+  background-color: black;
+  border: none;
+  color: green;
+  padding: 5px;
+  text-align: end;
+  width: 100%;
+  cursor: pointer;
+}
+img {
+  border-radius: 8px;
+  width: 18vw;
+  height: 28vh;
+}
+
+span {
+  color: green;
+}
+
+.message {
+  position: absolute;
+  border-radius: 8px;
+  left: 78%;
+  top: 86%;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+}
